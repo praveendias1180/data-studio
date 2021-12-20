@@ -2,6 +2,10 @@
 
 https://ga4-tests.web.app
 
+# GA4 Live Events Demo
+
+![GA4 Events Demo](ga-4-events.gif)
+
 # Data Studio
 
 ![Google Data Studio](data-studio.png)
