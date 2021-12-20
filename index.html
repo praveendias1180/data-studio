@@ -36,14 +36,36 @@
 
     <script>
         function event1(){
+
+            dataLayer.push({
+                "event": "pra.event_1",
+                "pra.var_1": 90,
+                "pra.var_2": "hello",
+            });
+
             console.log('Event 1 Fired');
         }
 
         function event2(){
+
+            dataLayer.push({
+                "event": "pra.event_2",
+                "pra.var_1": 60,
+                "pra.var_2": "hello world",
+            });
+
             console.log('Event 2 Fired');
         }
 
         function event3(){
+
+            dataLayer.push({
+                "event": "pra.event_3",
+                "pra.var_1": 0,
+                "pra.var_2": "new hello",
+                "pra.var_3": "welcome to analytics",
+            });
+
             console.log('Event 3 Fired');
         }
     </script>
