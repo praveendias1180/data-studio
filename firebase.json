@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": ".",
+    "site": "ga4-tests",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
